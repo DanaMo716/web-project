@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="../images/logo/logo.jpeg">
 
 
 </head>
@@ -18,11 +19,17 @@
     <header>
         <input type="checkbox" name="" id="toggler">
         <label for="toggler" class="fas fa-bars"></label>
-        <a href="#" class="logo">GreeneryCarry Haven<span>.</span></a>
+        <a href="index.html" class="logo">GreeneryCarry Haven<span>.</span></a>
         <nav class="navbar">
             <a href="#home">home</a>
             <a href="#about">about</a>
-            <a href="#product">product</a>
+            <div class="dropdown">
+                <button class="dropbtn">products<i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="plants.html"><i class="fas fa-seedling"></i> Plants</a>
+                    <a href="flowers.html"><i class="fas fa-leaf"></i> Flowers</a>
+                    
+                </div>
             <a href="#review">review</a>
             <a href="#contact">contact</a>
         </nav>
@@ -285,7 +292,7 @@
                 <a href="#">Qatar</a>
                 <a href="#">Kuwait</a>
             </div>
-            
+
             <div class="box">
                 <h3>contact info</h3>
                 <a href="#">+966-555-5555</a>
