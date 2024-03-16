@@ -41,7 +41,7 @@ section {
 .heading span {
     color: var(--green);
 
-    
+
 }
 
 .heading3 {
@@ -259,7 +259,7 @@ header .fa-bars {
     font-size: 1.5rem;
 }
 
-.icons-container .icons span{
+.icons-container .icons span {
     color: #555;
     font-size: 1.3rem;
 }
@@ -277,7 +277,7 @@ header .fa-bars {
     position: relative;
 }
 
-.review .box-container .box .fa-quote-right{
+.review .box-container .box .fa-quote-right {
     position: absolute;
     bottom: 3rem;
     right: 3rem;
@@ -325,35 +325,35 @@ header .fa-bars {
 
 }
 
-.contact .row{
+.contact .row {
     display: flex;
     flex-wrap: wrap-reverse;
     gap: 1.5rem;
     align-items: center;
 }
 
-.contact .row form{
+.contact .row form {
     flex: 1 1 40rem;
     padding: 2rem 2.5rem;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     border: .1rem solid rgba(0, 0, 0, .1);
     background: #fff;
     border-radius: .5rem;
-  
+
 
 }
 
-.contact .row images{
+.contact .row images {
     flex: 1 1 40rem;
 
 }
 
-.contact .row img{
+.contact .row img {
     width: 100%;
 
 }
 
-.contact .row form .box{
+.contact .row form .box {
     padding: 1rem;
     font-size: 1.7rem;
     color: #333;
@@ -364,52 +364,54 @@ header .fa-bars {
     width: 100%;
 
 }
-.contact .row form .box:focus{
+
+.contact .row form .box:focus {
     border-color: var(--green);
 
 }
-.contact .row form textarea{
+
+.contact .row form textarea {
     height: 15rem;
     resize: none;
 }
 
-.footer .box-container{
+.footer .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.footer .box-container .box{
-    flex:1 1 25rem;
-    
+.footer .box-container .box {
+    flex: 1 1 25rem;
+
 }
 
-.footer .box-container .box h3{
+.footer .box-container .box h3 {
     color: #333;
     font-size: 2.5rem;
     padding: 1rem 0;
 
-    
+
 }
 
 
-.footer .box-container .box a{
+.footer .box-container .box a {
     display: block;
     color: #666;
     font-size: 1.5rem;
     padding: 1rem 0;
-    
-    
+
+
 }
 
 
-.footer .box-container .box a:hover{
+.footer .box-container .box a:hover {
     color: var(--green);
     text-decoration: underline;
-    
+
 }
 
-.footer .box-container .box img{
+.footer .box-container .box img {
     margin-top: 1rem;
     width: 100%;
 }
@@ -756,4 +758,48 @@ header {
         font-size: 3rem;
     }
 
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
 }
